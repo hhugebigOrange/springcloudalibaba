@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.249.113:8847
+        username: nacos
+        password: nacos
+        namespace: 2d305855-d1e7-4f2b-a95f-6f5855cc172c
+    gateway:
+      discovery:
+        locator:
+          enabled: true

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order-ribbon-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.249.113:8847
+        username: nacos
+        password: nacos
+        namespace: 2d305855-d1e7-4f2b-a95f-6f5855cc172c
+      config:
+        server-addr: 110.40.249.113:8847
+        file-extension: yaml
+        namespace: 2d305855-d1e7-4f2b-a95f-6f5855cc172c
+        group: DEV_GROUP
